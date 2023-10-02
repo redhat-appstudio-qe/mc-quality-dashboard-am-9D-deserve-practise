@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: backend-quality-dashboard-dv2m
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/rhtap-demo-gapq-tenant/mc-quality-dashboard/backend-quality-dashboard-dv2m@sha256:8648561535e40655dc1b9d6d3d6b539747bf263f644732ac5d5beae101ac4bc5
+        name: container-image
+        resources: {}
+status: {}
