@@ -22,7 +22,7 @@ spec:
         app.kubernetes.io/instance: backend-quality-dashboard-dv2m
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-appstudio-qe/rhtap-demo-gapq-tenant/mc-quality-dashboard/backend-quality-dashboard-dv2m@sha256:8648561535e40655dc1b9d6d3d6b539747bf263f644732ac5d5beae101ac4bc5
         imagePullPolicy: Always
         name: container-image
         ports:
